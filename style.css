@@ -1,0 +1,416 @@
+html{
+    height: auto;
+}
+
+body{
+    font-family: 'Belanosima', sans-serif;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    text-decoration: none;
+}
+
+.body-home{
+    background-position: center;
+    background-size: cover;
+    background-color: #f7941d;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*========== HOME PAGE =========*/
+
+#home-logo{
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding: 50px 50px 25px 50px;
+}
+
+#home p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.startorder a{
+    text-decoration: none;
+}
+
+
+.startorderbutton {
+    border: 3px solid #ffffff;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.startorderbutton i{
+    color: #ffffff;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.startorderbutton:hover {
+    background-color: #0d173c;
+    border-color:#f7941d;
+    transition: .5s;
+}
+
+
+/*========== HEADER =========*/
+
+.header{
+    background-color: #0d173c;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+#header-logo{
+    width: 100px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+/*========== CONTENTS PAGE =========*/
+
+.body-contents{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+#contents-logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+#contents a{
+    text-decoration: none;
+}
+
+.contents-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#0d173c;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #f7941d;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.contents-item:hover {
+    color: #f7941d;
+    border-color:#f7941d;
+    transition: .5s;
+}
+
+/*========== MEALS LIST PAGE =========*/
+
+h1{
+    text-align: center;
+    color: #0d173c;
+    font-size: 50px;
+}
+
+.meals-list{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.meals-list-item {
+    text-decoration: none;
+}
+
+.item-name:hover {
+    color: #0d173c;
+    transition: .5s;
+}
+
+.meals-list-item p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.item-name {
+    font-size: 50px;
+    color: #f7941d;
+    text-transform: uppercase;
+}
+
+.item-info {
+    color: #0d173c;
+    border-bottom: 2px solid #f7941d;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+#item-pic{
+    width: 250px;
+    height: 140px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+}
+
+
+/*========== FOOTER =========*/
+
+.footer{
+    background-color: #0d173c;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    overflow: hidden;
+}
+
+.footer i{
+    float: left;
+    padding: 17px 17px 0 50px;
+    color: #ffffff;
+}
+
+
+.footer a{
+    text-decoration: none;
+}
+
+/*========== MEALS LIST PAGE =========*/
+
+#item-pic-main{
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+}
+
+.meals-list-main{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.meals-list-item {
+    text-decoration: none;
+}
+
+.meals-list-info p{
+    color: #0d173c;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+.price{
+    color: #f7941d !important;
+}
+
+.extras{
+    color: #0d173c;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.extras h2 {
+    font-size: 50px;
+}
+
+label{
+    font-size: 25px;
+}
+
+textarea{
+    border: solid 2px #0d173c;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.place-order-button{
+    border: none;
+    background-color: #f7941d;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    width: 40%;
+    font-family: 'Belanosima', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.place-order-button p{
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.place-order-button:hover {
+    background-color: #0d173c;
+    transition: .5s;
+}
+
+.place-order-button a{
+    text-decoration: none;
+}
+
+/*========== THANK YOU PAGE =========*/
+
+.body-thankyou{
+    background-position: center;
+    background-size: cover;
+    background-color: #0d173c;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#thankyou-logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 50px 50px 25px 50px;
+}
+
+#thankyou p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.backhome a{
+    text-decoration: none;
+}
+
+.backhomebutton p{
+    font-size: 16px !important;
+}
+
+
+.backhomebutton {
+    border: 3px solid #ffffff;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.backhomebutton i{
+    color: #ffffff;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+.backhomebutton:hover {
+    background-color: #f7941d;
+    border: none;
+    transition: .5s;
+}
+
+/*========== RESPONSIVE LAYOUT =========*/
+
+@media only screen and (min-width: 1000px) {
+    #thankyou p{
+        font-size: 80px;
+    }
+    #thankyou-logo{
+        width: 300px;
+    }
+    .backhomebutton {
+        width: 350px;
+        height: 100px;
+    }
+    .backhomebutton p{
+        font-size: 30px !important;
+    }
+    .backhomebutton i{
+        height: 100px;
+    }
+    #home-logo{
+        width: 600px;
+    }
+    
+    #home p{
+        font-size: 30px;
+    }
+    
+    .startorderbutton {
+        width: 300px;
+        height: 100px;
+    }
+
+    .contents-item{
+        font-size: 50px;
+    }
+    .meals-list-info p{
+        font-size: 50px;
+    }
+    h1{
+        font-size: 100px;
+    }
+    .place-order-button{
+        font-size: 50px;
+        border-radius: 50px;
+    }
+    .header{
+        height: 100px;
+    }
+    .footer{
+        height: 100px;
+    }
+    #header-logo{
+        width: 200px;
+        padding-top: 25px;
+    }
+    .body-contents{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    
+    }
+    .meals-list{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .meals-list-main{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .body-thankyou{
+        margin-top: 150px;
+        margin-bottom: 150px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .footer i{
+        padding: 40px 17px 0 50px;
+    }
+    .backhomebutton i{
+        padding-top: 38px;
+    }
+    .startorderbutton i{
+        padding-top: 38px;
+    }
+}
